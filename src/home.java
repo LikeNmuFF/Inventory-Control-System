@@ -181,10 +181,6 @@ public class home extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel5 = new javax.swing.JLabel();
-        welcomeAdmin = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
         lowStockItem = new javax.swing.JLabel();
         totalStockValue = new javax.swing.JLabel();
         totalProducts1 = new javax.swing.JLabel();
@@ -200,63 +196,49 @@ public class home extends javax.swing.JFrame {
         logout = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
+        welcomeAdmin = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel5.setFont(new java.awt.Font("Yu Gothic UI", 1, 24)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setText("WELCOME:");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 6, 290, 40));
-
-        welcomeAdmin.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 24)); // NOI18N
-        welcomeAdmin.setForeground(new java.awt.Color(255, 0, 51));
-        welcomeAdmin.setText("ADMIN");
-        getContentPane().add(welcomeAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 6, 290, 40));
-
-        jLabel2.setFont(new java.awt.Font("Book Antiqua", 1, 48)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 153, 153));
-        jLabel2.setText("Inventory Control System");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(463, 72, 600, -1));
-
-        jLabel7.setFont(new java.awt.Font("Trebuchet MS", 1, 36)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 51, 51));
-        jLabel7.setText("DASHBOARD");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(853, 132, 210, -1));
-
         lowStockItem.setBackground(new java.awt.Color(255, 255, 255));
         lowStockItem.setFont(new java.awt.Font("Cambria", 1, 36)); // NOI18N
-        getContentPane().add(lowStockItem, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 240, 232, 75));
+        lowStockItem.setToolTipText("display stocks");
+        getContentPane().add(lowStockItem, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 300, 360, 75));
 
         totalStockValue.setBackground(new java.awt.Color(255, 255, 255));
         totalStockValue.setFont(new java.awt.Font("Cambria", 1, 36)); // NOI18N
-        getContentPane().add(totalStockValue, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 240, 222, 75));
+        totalStockValue.setToolTipText("display stocks");
+        getContentPane().add(totalStockValue, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 300, 270, 75));
 
         totalProducts1.setBackground(new java.awt.Color(255, 255, 255));
         totalProducts1.setFont(new java.awt.Font("Cambria", 1, 36)); // NOI18N
-        getContentPane().add(totalProducts1, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 240, 210, 75));
+        totalProducts1.setToolTipText("display stocks");
+        getContentPane().add(totalProducts1, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 300, 190, 75));
 
         dailyActivity.setBackground(new java.awt.Color(255, 51, 51));
         dailyActivity.setFont(new java.awt.Font("Cambria", 1, 36)); // NOI18N
-        getContentPane().add(dailyActivity, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 240, 166, 75));
+        dailyActivity.setToolTipText("display stocks");
+        getContentPane().add(dailyActivity, new org.netbeans.lib.awtextra.AbsoluteConstraints(1060, 300, 220, 75));
 
         jLabel4.setFont(new java.awt.Font("Impact", 0, 18)); // NOI18N
         jLabel4.setText("DAILY ACTIVITY IN");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 210, 134, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1100, 270, 134, -1));
 
         jLabel6.setFont(new java.awt.Font("Impact", 0, 18)); // NOI18N
         jLabel6.setText("TOTAL PRODUCTS");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(689, 212, 134, -1));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 270, 134, -1));
 
         jLabel3.setFont(new java.awt.Font("Impact", 0, 18)); // NOI18N
         jLabel3.setText("TOTAL STOCK VALUE");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 210, 209, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 270, 150, -1));
 
         jLabel1.setFont(new java.awt.Font("Impact", 0, 18)); // NOI18N
         jLabel1.setText("LOW STOCK ITEM");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(189, 212, 134, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 270, 134, -1));
 
-        manageProduct.setBackground(new java.awt.Color(255, 153, 153));
+        manageProduct.setBackground(new java.awt.Color(0, 153, 153));
         manageProduct.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 18)); // NOI18N
         manageProduct.setText("MANAGE PRODUCT");
         manageProduct.addActionListener(new java.awt.event.ActionListener() {
@@ -264,9 +246,9 @@ public class home extends javax.swing.JFrame {
                 manageProductActionPerformed(evt);
             }
         });
-        getContentPane().add(manageProduct, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 370, 250, 38));
+        getContentPane().add(manageProduct, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 460, 310, 50));
 
-        stock_in_purchase.setBackground(new java.awt.Color(255, 102, 102));
+        stock_in_purchase.setBackground(new java.awt.Color(0, 153, 153));
         stock_in_purchase.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 18)); // NOI18N
         stock_in_purchase.setText("STOCK IN PURCHASE");
         stock_in_purchase.addActionListener(new java.awt.event.ActionListener() {
@@ -274,9 +256,9 @@ public class home extends javax.swing.JFrame {
                 stock_in_purchaseActionPerformed(evt);
             }
         });
-        getContentPane().add(stock_in_purchase, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 420, 250, 38));
+        getContentPane().add(stock_in_purchase, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 520, 310, 50));
 
-        view_inventory.setBackground(new java.awt.Color(255, 51, 51));
+        view_inventory.setBackground(new java.awt.Color(0, 153, 153));
         view_inventory.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 18)); // NOI18N
         view_inventory.setText("VIEW INVENTORY");
         view_inventory.addActionListener(new java.awt.event.ActionListener() {
@@ -284,9 +266,9 @@ public class home extends javax.swing.JFrame {
                 view_inventoryActionPerformed(evt);
             }
         });
-        getContentPane().add(view_inventory, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 470, 250, 38));
+        getContentPane().add(view_inventory, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 590, 310, 50));
 
-        REPORTS.setBackground(new java.awt.Color(255, 0, 0));
+        REPORTS.setBackground(new java.awt.Color(0, 153, 153));
         REPORTS.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 18)); // NOI18N
         REPORTS.setText("REPORTS");
         REPORTS.addActionListener(new java.awt.event.ActionListener() {
@@ -294,9 +276,9 @@ public class home extends javax.swing.JFrame {
                 REPORTSActionPerformed(evt);
             }
         });
-        getContentPane().add(REPORTS, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 520, 250, 38));
+        getContentPane().add(REPORTS, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 650, 310, 50));
 
-        logout.setBackground(new java.awt.Color(255, 0, 0));
+        logout.setBackground(new java.awt.Color(0, 204, 204));
         logout.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 18)); // NOI18N
         logout.setText("LOG OUT");
         logout.addActionListener(new java.awt.event.ActionListener() {
@@ -304,8 +286,11 @@ public class home extends javax.swing.JFrame {
                 logoutActionPerformed(evt);
             }
         });
-        getContentPane().add(logout, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 570, 250, 38));
+        getContentPane().add(logout, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 710, 310, 60));
 
+        jScrollPane1.setBackground(new java.awt.Color(0, 153, 153));
+
+        jTable1.setBackground(new java.awt.Color(0, 153, 153));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -319,7 +304,11 @@ public class home extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(jTable1);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(385, 348, 669, 319));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 440, 820, 380));
+        getContentPane().add(welcomeAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, 190, 50));
+
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/1a2.png"))); // NOI18N
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -90, 1310, 1000));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -399,12 +388,10 @@ public class home extends javax.swing.JFrame {
     private javax.swing.JButton REPORTS;
     private javax.swing.JLabel dailyActivity;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable jTable1;
     private javax.swing.JButton logout;
